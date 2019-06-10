@@ -15,8 +15,8 @@ class taobao_Scrapy:
         self.wait = WebDriverWait(self.driver, 20)
         self.db = pymssql.connect(host='127.0.0.1', user='sa', password='654321', port='1433', database='A2_Milk_Powder1', charset="utf8")
         self.cursor = self.db.cursor()
-        self.weibo_username = "582473541@qq.com"  # 你的微博账号
-        self.weibo_password = "lin19950902"  # 你的微博密码
+        self.weibo_username = ""  # 你的微博账号
+        self.weibo_password = ""  # 你的微博密码
         self.key = 'a2奶粉'
 
     def login(self):
